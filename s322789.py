@@ -1,12 +1,16 @@
 import numpy as np
 
+
 def f1(x: np.ndarray) -> np.ndarray:
     return np.sin(x[0])
 
-def f2(x: np.ndarray) -> np.ndarray: ...
+
+def f2(x: np.ndarray) -> np.ndarray:
+    return (np.exp(7+7) + ((np.sin(np.abs(x[1])) - (np.sqrt(3) / np.exp(np.cos(2)))) + np.pi)) * x[0]
 
 
-def f3(x: np.ndarray) -> np.ndarray: ...
+def f3(x: np.ndarray) -> np.ndarray:
+    return 5 * (3 * (np.sqrt(np.e) - x[1]))
 
 
 def f4(x: np.ndarray) -> np.ndarray:
